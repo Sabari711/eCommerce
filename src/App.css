@@ -1,0 +1,120 @@
+.App{
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.cm-section {
+  padding: 40px 0px;
+}
+.cm-section .container-text{
+  max-width: 800px;
+  margin: 0px auto;
+}
+.banner-img {
+  width: 100%;
+}
+.bg-img{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: center;
+}
+/* ======================PRODUCT CSS================== */
+.card-prop {
+  width: auto;
+  height: 300px;
+}
+
+.product-img {
+  min-height: 200px;
+  object-fit: cover;
+}
+
+.pro-price{
+  font-size: 24px;
+  margin-right: 10px;
+}
+.pro-org-price{
+  font-size: 19px;
+  margin-right: 10px;
+  text-decoration: line-through;
+}
+.pro-off{
+  font-size: 20px;
+  color: rgb(16,137,52);
+}
+.card-ft{
+  padding: 15px;
+}
+/* CSS */
+.prm-btn {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  text-decoration: none;
+}
+
+.prm-btn:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-prm-btn 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-prm-btn {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.prm-btn:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+/* ======================PRODUCT CSS================== */

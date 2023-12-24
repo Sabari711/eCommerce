@@ -1,0 +1,51 @@
+
+.contact-us-form-section{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.contact-info-icon {
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.contact-info-content {
+  margin-left: 20px;
+}
+
+.contact-info-content h4 {
+  color: #1da9c0;
+  font-size: 1.4em;
+  margin-bottom: 5px;
+}
+.contact-form .form-control{
+  background-color: transparent;
+  border: 1px solid #000;
+}
+
+.contact-us-form-section .contact-form {
+  background-color: transparent;
+  padding: 40px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  border-radius: 5px;
+}
+.error-msg{
+  color: #db3f1c;
+}
+textarea.form-control {
+  height: 70% !important;
+}
+.content{
+  padding: 40px;
+}
+.wrapper-2 h1{
+  font-family: 'Kaushan Script', cursive;
+  font-size:4em;
+}
