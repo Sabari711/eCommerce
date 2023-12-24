@@ -5,6 +5,17 @@ import horizonImg from "../images/horizon-call-of-the-mountain-5.webp";
 import mkImg from "../images/Mortal-Kombat-11.jpg";
 import rdr from "../images/Red-Dead-Redemption-2-Game-Information.jpg";
 
+import gow1 from '../images/productScreenShot/god-of-war-screen-1.jpg';
+import gow2 from '../images/productScreenShot/god-of-war-screen-2.jpg';
+import gow3 from '../images/productScreenShot/god-of-war-screen-3.jpg';
+import gow4 from '../images/productScreenShot/god-of-war-screen-4.jpg';
+
+import cod1 from '../images/productScreenShot/cod-1.jpg';
+import cod2 from '../images/productScreenShot/cod-2.jpg';
+import cod3 from '../images/productScreenShot/cod-3.jpg';
+import cod4 from '../images/productScreenShot/cod-4.jpg';
+
+
 
 
 let productArray = [
@@ -16,7 +27,10 @@ let productArray = [
         proImg : gtaImg,
         proPrice : 15.00,
         offPrice : 7.50,
-        offPercentage : "50%"
+        offPercentage : "50%",
+        images : [
+            gow1,gow2,gow3,gow4
+        ]
     },
 
     {
@@ -27,7 +41,10 @@ let productArray = [
         proImg : codImg,
         proPrice : 30.00,
         offPrice : 15.00,
-        offPercentage : "50%"
+        offPercentage : "50%",
+        images : [
+            cod1,cod2,cod3,cod4
+        ]
     },
 
     {
@@ -38,7 +55,10 @@ let productArray = [
         proImg : gowImg,
         proPrice : 50.00,
         offPrice : 25.00,
-        offPercentage : "50%"
+        offPercentage : "50%",
+        images : [
+            gow1,gow2,gow3,gow4
+        ]
     },
 
     {
@@ -49,7 +69,10 @@ let productArray = [
         proImg : mkImg,
         proPrice : 20.00,
         offPrice : 10.00,
-        offPercentage : "50%"
+        offPercentage : "50%",
+        images : [
+            gow1,gow2,gow3,gow4
+        ]
     },
 
     {
@@ -60,7 +83,10 @@ let productArray = [
         proImg : horizonImg,
         proPrice : 10.00,
         offPrice : 7.00,
-        offPercentage : "30%"
+        offPercentage : "30%",
+        images : [
+            gow1,gow2,gow3,gow4
+        ]
     },
 
     {
@@ -71,7 +97,10 @@ let productArray = [
         proImg : rdr,
         proPrice : 50.00,
         offPrice : 25.00,
-        offPercentage : "50%"
+        offPercentage : "50%",
+        images : [
+            gow1,gow2,gow3,gow4
+        ]
     }
 
 ]
