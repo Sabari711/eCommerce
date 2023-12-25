@@ -22,8 +22,8 @@ function App() {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/product/:seoUrl" element={<ProductDetails />} />
           {/* Add routes for other pages as needed */}
-          <Route path="notfound" element={<PageNotFound />} />
-          <Route path="*" element={<Navigate to="/notfound" replace />} />
+          {/* <Route path="notfound" element={<PageNotFound />} />
+          <Route path="*" element={<Navigate to="/notfound" replace />} /> */}
         </Routes>
         <Footer />
       </BrowserRouter>
