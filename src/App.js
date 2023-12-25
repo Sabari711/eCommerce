@@ -14,7 +14,7 @@ import PageNotFound from "./pages/404Page";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename='https://sabari711.github.io/eCommerce/'>
+      <BrowserRouter>
       <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
