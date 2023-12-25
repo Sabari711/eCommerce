@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter basename='/eCommerce'>
       <NavBar />
         <Routes>
-          <Route exact path="/eCommerce" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/product/:seoUrl" element={<ProductDetails />} />
