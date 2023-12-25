@@ -14,10 +14,10 @@ import PageNotFound from "./pages/404Page";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='/eCommerce'>
       <NavBar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/eCommerce" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/product/:seoUrl" element={<ProductDetails />} />
