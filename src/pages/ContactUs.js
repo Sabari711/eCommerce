@@ -140,7 +140,7 @@ const ContactForm = () => {
                 <div class="col-10">
                   <div class="contact-info-content text-start ">
                     <h4>Phone</h4>
-                    <p>571-457-2321</p>
+                    <p>+91 9360359880</p>
                   </div>
                 </div>
               </div>
@@ -154,7 +154,7 @@ const ContactForm = () => {
                 <div class="col-10">
                   <div class="contact-info-content text-start ">
                     <h4>Email</h4>
-                    <p>ntamerrwael@mfano.ga</p>
+                    <p>info@centaurdigital.com</p>
                   </div>
                 </div>
               </div>
