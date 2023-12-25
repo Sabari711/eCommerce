@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eCommerce/static/css/main.1087004d.css",
-    "main.js": "/eCommerce/static/js/main.872ae919.js",
+    "main.js": "/eCommerce/static/js/main.521c7d17.js",
     "static/js/787.a4b45000.chunk.js": "/eCommerce/static/js/787.a4b45000.chunk.js",
     "static/media/cod-3.jpg": "/eCommerce/static/media/cod-3.a3457f6e9578c6c60c3a.jpg",
     "static/media/gta-banner.jpg": "/eCommerce/static/media/gta-banner.8bbe97349f7a5b238a0f.jpg",
@@ -28,11 +28,11 @@
     "static/media/logo-black.png": "/eCommerce/static/media/logo-black.ee7e7e2fd117c2b0d6f9.png",
     "index.html": "/eCommerce/index.html",
     "main.1087004d.css.map": "/eCommerce/static/css/main.1087004d.css.map",
-    "main.872ae919.js.map": "/eCommerce/static/js/main.872ae919.js.map",
+    "main.521c7d17.js.map": "/eCommerce/static/js/main.521c7d17.js.map",
     "787.a4b45000.chunk.js.map": "/eCommerce/static/js/787.a4b45000.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1087004d.css",
-    "static/js/main.872ae919.js"
+    "static/js/main.521c7d17.js"
   ]
 }
