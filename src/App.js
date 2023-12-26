@@ -14,7 +14,7 @@ import PageNotFound from "./pages/404Page";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       <NavBar />
         <Routes>
           <Route exact path="/" element={<Home />} />

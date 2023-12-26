@@ -85,8 +85,8 @@ const App = () => {
             {productArray.map((data) => {
               return (
                 <div data-aos="zoom-in">
-                  <div className="col mb-4">
-                    <div class="card h-100">
+                  <div className="col pb-4 h-100">
+                    <div class="card h-100 ">
                       <img
                         class="card-img-top product-img"
                         src={data.proImg}
