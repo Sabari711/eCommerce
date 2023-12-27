@@ -7,12 +7,13 @@ import { Link, NavLink } from "react-router-dom";
 
 // import required Image
 import logo from '../assets/images/logo-black.png'
+import configData from "../config/config";
 
 const NavBar = () => {
   return (
     <nav class="navbar navbar-expand-lg sticky-top glass-look">
       <div class="container-fluid">
-        <a class="navbar-brand brand-logo" href="/">
+        <a class="navbar-brand brand-logo" href={configData.gitPages+"/"}>
          <img src={logo} />
         </a>
         <button
@@ -29,17 +30,17 @@ const NavBar = () => {
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">
+              <a class="nav-link active" aria-current="page" href={configData.gitPages+"/"}>
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about-us">
+              <a class="nav-link" href={configData.gitPages+"/about-us"}>
                 About Us
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact-us">
+              <a class="nav-link" href={configData.gitPages+"/contact-us"}>
                 Contact Us
               </a>
             </li>

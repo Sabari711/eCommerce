@@ -1,14 +1,17 @@
 let configure = ""
 let configData = {
-    frontEndUrl : ""
+    frontEndUrl : "",
+    gitPages : "/eCommerce"
 }
 if(configure === "dev"){
     configData = {
-        frontEndUrl : "http://localhost:3000/"
+        frontEndUrl : "http://localhost:3000/",
+        gitPages : "/eCommerce"
     }
 }else{
     configData = {
-        frontEndUrl : "http://localhost:3000/" // changed if ness...
+        frontEndUrl : "http://localhost:3000/", // changed if ness...,
+        gitPages : "/eCommerce"
     }
 }
 

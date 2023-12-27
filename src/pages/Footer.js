@@ -7,6 +7,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import configData from "../config/config";
 
 function Footer() {
   return (
@@ -45,10 +46,10 @@ function Footer() {
               <h6>Quick Links</h6>
               <ul class="footer-links">
                 <li>
-                  <a href="/about-us">About Us</a>
+                  <a href={configData.gitPages+"/about-us"}>About Us</a>
                 </li>
                 <li>
-                  <a href="/contact-us">Contact Us</a>
+                  <a href={configData.gitPages+"/contact-us"}>Contact Us</a>
                 </li>
               </ul>
             </div>

@@ -1,6 +1,6 @@
 // import required Modules
 import React from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate, HashRouter } from "react-router-dom";
 // import required Files
 import Home from './pages/Home';
 import NavBar from './pages/NavBar';
@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter basename={process.env.PUBLIC_URL}>
+        {/* <HashRouter basename='/'> */}
       <NavBar />
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -26,6 +27,7 @@ function App() {
           <Route path="*" element={<Navigate to="/notfound" replace />} />
         </Routes>
         <Footer />
+        {/* </HashRouter> */}
       </BrowserRouter>
     </div>
   );
