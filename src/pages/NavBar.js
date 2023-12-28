@@ -30,17 +30,17 @@ const NavBar = () => {
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href={configData.gitPages+"/"}>
+              <a class="nav-link active" aria-current="page" href={"/"}>
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href={configData.gitPages+"/about-us"}>
+              <a class="nav-link" href={"/about-us"}>
                 About Us
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href={configData.gitPages+"/contact-us"}>
+              <a class="nav-link" href={"/contact-us"}>
                 Contact Us
               </a>
             </li>

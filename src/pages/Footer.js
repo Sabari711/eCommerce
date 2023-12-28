@@ -46,10 +46,10 @@ function Footer() {
               <h6>Quick Links</h6>
               <ul class="footer-links">
                 <li>
-                  <a href={configData.gitPages+"/about-us"}>About Us</a>
+                  <a href={"/about-us"}>About Us</a>
                 </li>
                 <li>
-                  <a href={configData.gitPages+"/contact-us"}>Contact Us</a>
+                  <a href={"/contact-us"}>Contact Us</a>
                 </li>
               </ul>
             </div>
