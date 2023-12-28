@@ -1,5 +1,5 @@
 # eCommerce
-I've using that packages in that application.
+I've using that packages in that application and here is the brief explanation.
 
 1) Bootstrap: 
   Description: Bootstrap is a popular front-end framework that provides a set of pre-designed components, styles, and utilities for building responsive and visually appealing web applications. It includes CSS and JavaScript components, making it easier to create a consistent and modern user interface.
@@ -18,3 +18,5 @@ I've using that packages in that application.
 
 6) react-helmet-async:
   Description: React-Helmet-Async is a library for managing the document head in React applications. The document head includes elements such as title, meta tags, styles, and scripts. React-Helmet-Async enables dynamic changes to the document head based on the current state of the React components. This is crucial for optimizing SEO (Search Engine Optimization) by allowing you to set title tags, meta descriptions, and other important metadata for each page in a React application. It provides a clean and efficient way to manage the head of your HTML document, ensuring that search engines and social media platforms receive accurate and relevant information about your pages.
+
+Site url : https://e-commerce-vzh7.vercel.app/
