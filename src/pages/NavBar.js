@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <nav class="navbar navbar-expand-lg sticky-top glass-look">
       <div class="container-fluid">
-        <a class="navbar-brand brand-logo" href={configData.gitPages+"/"}>
+        <a class="navbar-brand brand-logo" href={"/"}>
          <img src={logo} />
         </a>
         <button

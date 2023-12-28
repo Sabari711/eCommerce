@@ -1,22 +1,39 @@
-import gtaImg from "../images/gta-banner.jpg"
-import codImg from "../images/call-of-duty-ghost-team.jpg"
-import gowImg from "../images/imrs.webp";
-import horizonImg from "../images/horizon-call-of-the-mountain-5.webp";
-import mkImg from "../images/Mortal-Kombat-11.jpg";
-import rdr from "../images/Red-Dead-Redemption-2-Game-Information.jpg";
+import gtaImg from "../images/gta-banner.png"
+import codImg from "../images/call-of-duty-ghost-team.png"
+import gowImg from "../images/imrs.png";
+import horizonImg from "../images/horizon-call-of-the-mountain-5.png";
+import mkImg from "../images/Mortal-Kombat-11.png";
+import rdr from "../images/Red-Dead-Redemption-2-Game-Information.png";
 
-import gow1 from '../images/productScreenShot/god-of-war-screen-1.jpg';
-import gow2 from '../images/productScreenShot/god-of-war-screen-2.jpg';
-import gow3 from '../images/productScreenShot/god-of-war-screen-3.jpg';
-import gow4 from '../images/productScreenShot/god-of-war-screen-4.jpg';
+import gow1 from '../images/productScreenShot/god-of-war-screen-1.png';
+import gow2 from '../images/productScreenShot/god-of-war-screen-2.png';
+import gow3 from '../images/productScreenShot/god-of-war-screen-3.png';
+import gow4 from '../images/productScreenShot/god-of-war-screen-4.png';
 
-import cod1 from '../images/productScreenShot/cod-1.jpg';
-import cod2 from '../images/productScreenShot/cod-2.jpg';
-import cod3 from '../images/productScreenShot/cod-3.jpg';
-import cod4 from '../images/productScreenShot/cod-4.jpg';
+import cod1 from '../images/productScreenShot/cod-1.png';
+import cod2 from '../images/productScreenShot/cod-2.png';
+import cod3 from '../images/productScreenShot/cod-3.png';
+import cod4 from '../images/productScreenShot/cod-4.png';
 
+import gta_v_1  from '../images/productScreenShot/gta-v-1.png';
+import gta_v_2  from '../images/productScreenShot/gta-v-2.png';
+import gta_v_3  from '../images/productScreenShot/gta-v-3.png';
+import gta_v_4  from '../images/productScreenShot/gta-v-4.png';
 
+import mk_1  from '../images/productScreenShot/MK11-1.png';
+import mk_2  from '../images/productScreenShot/MK11-2.png';
+import mk_3  from '../images/productScreenShot/MK11-3.png';
+import mk_4  from '../images/productScreenShot/MK11-4.png';
 
+import horizon1  from '../images/productScreenShot/horizon1.png';
+import horizon2  from '../images/productScreenShot/horizon2.png';
+import horizon3  from '../images/productScreenShot/horizon3.png';
+import horizon4  from '../images/productScreenShot/horizon4.png';
+
+import rdr1 from '../images/productScreenShot/rdr1.png';
+import rdr2 from '../images/productScreenShot/rdr2.png';
+import rdr3 from '../images/productScreenShot/rdr3.png';
+import rdr4 from '../images/productScreenShot/rdr4.png';
 
 let productArray = [
     {
@@ -29,7 +46,7 @@ let productArray = [
         offPrice : 7.50,
         offPercentage : "50%",
         images : [
-            gow1,gow2,gow3,gow4
+            gta_v_1,gta_v_2,gta_v_3,gta_v_4
         ]
     },
 
@@ -71,7 +88,7 @@ let productArray = [
         offPrice : 10.00,
         offPercentage : "50%",
         images : [
-            gow1,gow2,gow3,gow4
+            mk_1,mk_2,mk_3,mk_4
         ]
     },
 
@@ -85,7 +102,7 @@ let productArray = [
         offPrice : 7.00,
         offPercentage : "30%",
         images : [
-            gow1,gow2,gow3,gow4
+            horizon1,horizon2,horizon3,horizon4
         ]
     },
 
@@ -99,7 +116,7 @@ let productArray = [
         offPrice : 25.00,
         offPercentage : "50%",
         images : [
-            gow1,gow2,gow3,gow4
+            rdr1,rdr2,rdr3,rdr4
         ]
     }
 

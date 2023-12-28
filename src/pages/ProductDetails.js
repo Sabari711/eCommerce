@@ -6,6 +6,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 import '../assets/css/ProductDetails.css'
+import configData from '../config/config';
 
 
 
@@ -35,7 +36,7 @@ const ProductDetails = () => {
     setLightboxOpen(false);
   };
 
-
+  console.log(process.env.PUBLIC_URL,"url");
 
   return (
     <section className='cm-section'>
@@ -43,8 +44,25 @@ const ProductDetails = () => {
         <Helmet>
           <title>{`${productDetail.productName} - CD Store`}</title>
           <meta name="description" content={`Shop ${productDetail.productName} - ${productDetail.desc}`} />
+          <meta name="keywords" content={`${productDetail.productName} - CD Store`} />
+          <meta name="author" content="CD Store Inc." />
+          <meta name="robots" content="index, follow" />
           <meta property="og:title" content={productDetail.productName} />
-          <link rel="canonical" href={productDetail.proImg} />
+          <meta
+            property="og:description"
+            content={`Shop ${productDetail.productName} - ${productDetail.desc}`} 
+          />
+          <meta property="og:image" content={productDetail.proImg} />
+          <meta property="og:url" href={configData.frontEndUrl +'product/' + productDetail.productSeoUrl} />
+          <meta property="og:type" content="website" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="CD Store - About Us" />
+          <meta
+            name="twitter:description"
+            content={`Shop ${productDetail.productName} - ${productDetail.desc}`}
+          />
+          <meta name="twitter:image" content={productDetail.proImg} />
+          <link rel="canonical" href={configData.frontEndUrl +'product/'+ productDetail.productSeoUrl} />
         </Helmet>
       </HelmetProvider>
       <div className="container mt-3">

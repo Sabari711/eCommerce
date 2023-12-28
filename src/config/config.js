@@ -10,7 +10,7 @@ if(configure === "dev"){
     }
 }else{
     configData = {
-        frontEndUrl : "http://localhost:3000/", // changed if ness...,
+        frontEndUrl : "https://e-commerce-vzh7.vercel.app/", // changed if ness...,
         gitPages : "/eCommerce"
     }
 }
